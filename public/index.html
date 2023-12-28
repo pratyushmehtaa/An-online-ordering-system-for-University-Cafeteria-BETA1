@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+ 
+</style>
+
+<body>
+   <img src = "./images/juitlogo.png">
+<h1>JUIT Cafeteria</h1> 
+
+<div class="login-container">
+    
+    <h2>Login</h2>
+    <form action="/login" method="post">
+        <label for="username">Roll Number:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+    </form>
+</div>
+<script src="./index.js"></script>
+
+</body>
+</html>

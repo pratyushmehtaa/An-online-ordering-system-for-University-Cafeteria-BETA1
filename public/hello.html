@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Ordering</title>
+    <link rel="stylesheet" href="hello.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Order Here</h2>
+        <form action="/submitOrder" method="post">
+            <label for="food">Select Food:</label>
+            <select id="food" name="food">
+                <option value="patties">Patties</option>
+                <option value="coffee">Coffee</option>
+                <option value="burger">Burger</option>
+                <option value="sandwich">Sandwich</option>
+                
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+            <button type="button" onclick="addToCart()">Add to Cart</button>
+        </form>
+
+        <div class="cart" id="cart">
+            <h3>Shopping Cart</h3>
+            
+        </div>
+
+        <button type="submit" >Pay Online</button>
+
+    </div>
+    <script src = "../index.js"></script>
+    <script src="./hello.js"></script>
+</body>
+</html>
