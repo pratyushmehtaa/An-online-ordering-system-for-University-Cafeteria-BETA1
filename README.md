@@ -1,0 +1,2 @@
+# An-online-ordering-system-for-University-Cafeteria-BETA1
+This is just a simple online food ordering system for my university cafeteria , its not functional its just a project on which i am thinking of working in future. In this firstly is the login page which has a connection to the database that is MySql through localhost on the same PC only.Second page is a form on which i will work in future.
